@@ -12,6 +12,7 @@
 		BC0CE8F01D90D1CC007F151E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0CE8EE1D90D1CC007F151E /* Main.storyboard */; };
 		BC0CE8F21D90D1CC007F151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0CE8F11D90D1CC007F151E /* Assets.xcassets */; };
 		BC0CE8F51D90D1CC007F151E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0CE8F31D90D1CC007F151E /* LaunchScreen.storyboard */; };
+		BC0CE8FD1D90D590007F151E /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CE8FC1D90D590007F151E /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BC0CE8F11D90D1CC007F151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0CE8F41D90D1CC007F151E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0CE8F61D90D1CC007F151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0CE8FC1D90D590007F151E /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BC0CE8DE1D90D1CC007F151E = {
 			isa = PBXGroup;
 			children = (
+				BC0CE8FC1D90D590007F151E /* NewViewController.swift */,
 				BC0CE8E91D90D1CC007F151E /* ios */,
 				BC0CE8E81D90D1CC007F151E /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0CE8FD1D90D590007F151E /* NewViewController.swift in Sources */,
 				BC0CE8ED1D90D1CC007F151E /* ViewController.swift in Sources */,
 				BC0CE8EB1D90D1CC007F151E /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				BC0CE8FB1D90D1CC007F151E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
